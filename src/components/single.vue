@@ -18,13 +18,6 @@
                 <dd class="input-va-mid" v-for="(item, index) in que.options" :key="index">
                     <input type="radio" :value="'pickedRadio'+index" v-model="picked" id="inputCheck">
                     <span>选项{{index+1}}</span>
-                    <span class="is-answer right-answer" v-show="false">（正确答案）</span>
-                            <span class="score-operation">
-                                <a href="javascript:;" class="position-reduce"></a>
-                                <a href="javascript:;" class="position-up"></a>
-                                <a href="javascript:;" class="position-down"></a>
-                                <a href="javascript:;" class="position-top"></a>
-                            </span>
                 </dd>
 
 
